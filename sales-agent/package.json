@@ -1,0 +1,25 @@
+{
+  "name": "@brandgen/sales-agent",
+  "version": "1.0.0",
+  "description": "AI-powered sales pipeline manager — scrapes leads, enriches data, manages follow-ups, and qualifies prospects",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --test tests/"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "openai": "^4.77.0",
+    "playwright": "^1.49.0",
+    "nodemailer": "^6.9.16",
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {},
+  "keywords": ["brandgen", "sales", "agent", "crm", "lead-generation"],
+  "license": "UNLICENSED",
+  "private": true
+}

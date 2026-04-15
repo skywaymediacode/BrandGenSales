@@ -1,0 +1,31 @@
+{
+  "key": "cold-outreach",
+  "name": "Cold Outreach Sequence",
+  "description": "4-step sequence for new leads with no prior contact",
+  "steps": [
+    {
+      "template": "intro",
+      "delayDays": 0,
+      "subject": "Personalized intro email",
+      "description": "Introduce the brand, reference the recipient's business, and offer value"
+    },
+    {
+      "template": "value-prop",
+      "delayDays": 3,
+      "subject": "Follow-up with value proposition",
+      "description": "Share a specific benefit or result relevant to the recipient's industry"
+    },
+    {
+      "template": "case-study",
+      "delayDays": 7,
+      "subject": "Case study or social proof",
+      "description": "Share a success story from a similar business"
+    },
+    {
+      "template": "break-up",
+      "delayDays": 14,
+      "subject": "Break-up email",
+      "description": "Final touchpoint — acknowledge silence, leave the door open"
+    }
+  ]
+}

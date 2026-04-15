@@ -1,0 +1,31 @@
+{
+  "key": "closing",
+  "name": "Closing Sequence",
+  "description": "4-step sequence for deals in the proposal stage",
+  "steps": [
+    {
+      "template": "proposal-delivery",
+      "delayDays": 0,
+      "subject": "Proposal delivery",
+      "description": "Deliver the proposal with a clear summary and call-to-action"
+    },
+    {
+      "template": "check-in",
+      "delayDays": 3,
+      "subject": "Check-in on proposal",
+      "description": "Follow up on the proposal — ask if they have questions"
+    },
+    {
+      "template": "objection-handling",
+      "delayDays": 7,
+      "subject": "Address objections",
+      "description": "Proactively address common objections or concerns"
+    },
+    {
+      "template": "final-offer",
+      "delayDays": 14,
+      "subject": "Final offer",
+      "description": "Present a final offer or deadline to encourage commitment"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "key": "re-engagement",
+  "name": "Re-engagement Sequence",
+  "description": "3-step sequence for contacts who went cold after initial interest",
+  "steps": [
+    {
+      "template": "new-value",
+      "delayDays": 0,
+      "subject": "New value or offer",
+      "description": "Lead with something new — a fresh offer, insight, or relevant update"
+    },
+    {
+      "template": "different-angle",
+      "delayDays": 7,
+      "subject": "Different angle",
+      "description": "Approach from a different perspective or highlight a different benefit"
+    },
+    {
+      "template": "final-re-engage",
+      "delayDays": 21,
+      "subject": "Final re-engagement",
+      "description": "Last attempt — direct and honest about wanting to reconnect"
+    }
+  ]
+}
