@@ -1,0 +1,32 @@
+{
+  "key": "sales_agent",
+  "name": "Sales Agent",
+  "version": "1.0.0",
+  "description": "AI-powered sales pipeline manager — scrapes leads, enriches data, manages follow-ups, and qualifies prospects",
+  "scopes": ["crm", "nurture", "brand", "analytics"],
+  "actions": [
+    "create_contact",
+    "update_contact",
+    "update_deal",
+    "create_deal",
+    "send_email",
+    "send_sms",
+    "log_note",
+    "surface_insight"
+  ],
+  "triggers": [
+    "new_contact",
+    "deal_stage_change",
+    "contact_inactive",
+    "daily_digest",
+    "weekly_report"
+  ],
+  "config": {
+    "followUpDelayHours": 24,
+    "maxEmailsPerDay": 50,
+    "autoQualifyThreshold": 0.7,
+    "scrapeTargets": [],
+    "enrichmentSources": ["clearbit", "zoominfo", "linkedin"],
+    "emailSmtp": {}
+  }
+}

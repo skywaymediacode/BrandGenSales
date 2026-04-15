@@ -1,0 +1,25 @@
+{
+  "key": "follow-up",
+  "name": "Warm Follow-up Sequence",
+  "description": "3-step sequence for leads who have responded or engaged",
+  "steps": [
+    {
+      "template": "thank-you",
+      "delayDays": 0,
+      "subject": "Thank you + next steps",
+      "description": "Thank the contact for engaging and outline clear next steps"
+    },
+    {
+      "template": "resources",
+      "delayDays": 2,
+      "subject": "Additional resources",
+      "description": "Share relevant resources, guides, or insights for their business"
+    },
+    {
+      "template": "meeting-request",
+      "delayDays": 5,
+      "subject": "Meeting request",
+      "description": "Request a brief meeting or call to discuss their needs"
+    }
+  ]
+}
